@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <nav>
+      <a href="index.html" class="logo">Restaurant</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="wishlist.html">Wishlist</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Signup Container -->
+  <div class="container">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <!-- Name Input -->
+      <label for="signup-name">Name:</label>
+      <input type="text" id="signup-name" name="signup-name" required>
+
+      <!-- Email Input -->
+      <label for="signup-email">Email:</label>
+      <input type="email" id="signup-email" name="signup-email" required>
+
+      <!-- Phone Number Input -->
+      <label for="signup-phone">Phone Number:</label>
+      <input type="tel" id="signup-phone" name="signup-phone" required>
+
+      <!-- Password Input -->
+      <label for="signup-password">Password:</label>
+      <input type="password" id="signup-password" name="signup-password" required>
+
+      <!-- Confirm Password Input -->
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+
+      <!-- Submit Button -->
+      <button type="submit">Sign Up</button>
+
+      <!-- Link to Login -->
+      <p>Already have an account? <a href="login.html">Log in here</a></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
