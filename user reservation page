@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Make a Reservation</h2>
+    <form id="reservationForm">
+      <!-- Select Date -->
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      
+      <!-- Select Time -->
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+      
+      <!-- Select Party Size -->
+      <label for="partySize">Party Size:</label>
+      <select id="partySize" name="partySize" required>
+        <option value="">Select party size</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+
+      <!-- Special Requests -->
+      <label for="specialRequests">Special Requests:</label>
+      <textarea id="specialRequests" name="specialRequests" rows="4" placeholder="Any special requests?"></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit">Confirm Reservation</button>
+    </form>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="hidden">
+      <p>Reservation Confirmed!</p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+
