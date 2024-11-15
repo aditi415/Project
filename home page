@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | DineFlow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background-color: #f1c40f;
+        }
+        .hero {
+            text-align: center;
+            margin: 50px auto;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .buttons a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #f1c40f;
+            color: #000;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .buttons a:hover {
+            background-color: #d4ac0d;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">DineFlow</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Wishlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Welcome to DineFlow</h1>
+        <p>Your smart restaurant reservation and waitlist manager</p>
+        <div class="buttons">
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Add additional sections here like About, Features, etc. -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 DineFlow. All rights reserved. | Designed for smart dining.</p>
+    </footer>
+</body>
+</html>
+
